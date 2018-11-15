@@ -1,5 +1,5 @@
 .navbar {
-    background-color: red !important; 
+    background-color: lightblue !important; 
 }
 
 .footer p {
@@ -23,7 +23,7 @@
 @keyframes flux {
     0% {color: white;}
     100% {
-        color: rgb(180, 180, 235);
+        color: rgb(118, 118, 201);
     }
 }
 

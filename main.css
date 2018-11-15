@@ -1,0 +1,36 @@
+.navbar {
+    background-color: red !important; 
+}
+
+.footer p {
+    margin: 5px auto;
+    color: white;
+}
+
+.active {
+    animation: flux 1s ease 0 infinite alternate;
+}
+
+#navtitle {
+    animation: rainbow 4s linear infinite alternate;
+}
+
+.navbar a:hover {
+    transition: .5s;
+    color: rgb(0, 0, 150) !important;
+}
+
+@keyframes flux {
+    0% {color: white;}
+    100% {
+        color: rgb(180, 180, 235);
+    }
+}
+
+@keyframes rainbow {
+    0% {color: rgb(255, 255, 0);}
+    25% {color: rgb(0, 255, 0);}
+    50% {color: rgb(0, 225, 255);}
+    75% {color: rgb(0, 0, 255);}
+    100% {color: rgb(255, 0, 255);}
+}
